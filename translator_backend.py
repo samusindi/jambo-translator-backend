@@ -3,7 +3,7 @@ from flask_cors import CORS
 import openai
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS to allow frontend to connect
+CORS(app)
 
 openai.api_key = 'your-openai-api-key-here'
 
